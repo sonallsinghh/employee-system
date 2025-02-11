@@ -2,7 +2,6 @@ package com.example.ems.Service;
 
 import com.example.ems.Entity.Employee;
 import com.example.ems.Repository.EmployeeRepository;
-import jakarta.persistence.Cacheable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
